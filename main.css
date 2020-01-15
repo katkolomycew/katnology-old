@@ -1,0 +1,505 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/photo-1527254432336-72d0c3ad1942.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+/* NAVIGATION START */
+header {
+  position: absolute;
+  top: 5vh;
+  left: 10vh;
+  z-index: 1;
+}
+
+.navbutton {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ede0d5;
+  font-size: 0.7rem;
+  background-color: #d9779b;
+  transition: all 0.3s ease-in;
+  box-shadow: 0 0 10px #513459;
+  line-height: 5%;
+  padding: 15%;
+  margin-bottom: 10px;
+  width: 10vw;
+  height: 5vh;
+  display: block;
+}
+
+.navbutton:hover {
+  background-color: #a65d85;
+  cursor: pointer;
+}
+
+/* NAVIGATION END */
+
+/* HOMEBOX START */
+.homebox {
+  top: 5vh;
+  left: 35vh;
+  position: absolute;
+}
+
+#home .homebox {
+  background-color: #ede0d5;
+  box-shadow: 0 0 10px #513459;
+  width: 35vw;
+  height: 90vh;
+  padding: 25px;
+}
+
+#home .homebox .homeprofile {
+  height: 50%;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #d9779b4d;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#home .homebox h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #724573;
+  text-align: center;
+  margin-top: 2%;
+  padding: 2px;
+}
+
+#home .homebox h6 {
+  font-size: 0.7rem;
+  color: #a65d85;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#home .homeline {
+  border-bottom: 1px solid #d9779b;
+  width: 50%;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+#home .homebox p {
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+  color: #513459;
+  text-align: center;
+  padding: 5px;
+}
+
+#home .homebox .homesocial img {
+  height: 10%;
+  width: 10%;
+  display: inline-block;
+  margin: 3.5% 1% 0 7%;
+  padding: 0;
+}
+
+.homesocial a {
+  text-decoration: none;
+}
+
+#home .homebox .homesocial img:hover {
+  transform: scale(1.4);
+  transition: all ease 500ms;
+}
+
+/* HOMEBOX END */
+
+/* CV PAGE START */
+.CV-content {
+  position: absolute;
+  top: 5vh;
+  left: 115vh;
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #724573;
+  overflow-y: scroll;
+}
+
+.CV-content img {
+  height: 10%;
+  width: 10%;
+  vertical-align: middle;
+  margin: 10px 10px 5px 0;
+}
+
+.CV-content li,
+.CV-content p {
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+  color: #513459;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+.CV-content p {
+  padding-left: 20px;
+}
+
+.CV-content h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.CV-content .education-text {
+  border: 4px double #d9779b;
+  margin: 5px 0 10px 0;
+  padding: 5px;
+}
+
+.CV-content .experience-text {
+  border: 4px double #d9779b;
+  margin: 5px 0 10px 0;
+  padding: 5px;
+}
+
+.CV-content .references-text {
+  border: 4px double #d9779b;
+  margin: 5px 0 10px 0;
+  padding: 5px;
+}
+
+#cv .CV-content {
+  background-color: #ede0d5;
+  width: 40vw;
+  height: 90vh;
+  padding: 25px;
+  box-shadow: 0 0 10px #513459;
+}
+
+.download-CV {
+  font-size: 0.7rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  color: #ede0d5;
+  background-color: #d9779b;
+  transition: all ease 600ms;
+  padding: 15px;
+  display: block;
+}
+
+.download-CV:hover {
+  background-color: #a65d85;
+}
+
+/* CV PAGE END */
+
+/* SKILLS PAGE START */
+.skills-content {
+  position: absolute;
+  top: 5vh;
+  left: 115vh;
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #724573;
+  overflow-y: scroll;
+}
+
+#skills .skills-content {
+  background-color: #ede0d5;
+  width: 40vw;
+  height: 90vh;
+  padding: 25px;
+  box-shadow: 0 0 10px #513459;
+}
+
+.skills-content img {
+  height: 10%;
+  width: 10%;
+  vertical-align: middle;
+  margin: 10px 10px 5px 0;
+}
+
+.skills-content p {
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+  color: #513459;
+  border-top: 2px dotted #d9779b;
+  margin: 5px 0 10px 0;
+  padding: 5px;
+}
+
+.skills-bar {
+  width: 100%;
+  background-color: #a65d85;
+  color: #ede0d5;
+  margin: 5px 0 10px 0;
+  font-size: 0.7rem;
+}
+
+.perseverance-bar {
+  width: 100%;
+  height: 5vh;
+  background-color: #d9779b;
+  padding: 5px;
+  text-align: right;
+}
+
+p.perseverance-text,
+p.communication-text,
+p.teamwork-text,
+p.problemsolving-text {
+  color: #ede0d5;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.7rem;
+  border: none;
+  text-align: left;
+  position: absolute;
+  padding-left: 1.5vh;
+  padding-bottom: 1vh;
+}
+
+.communication-bar,
+.teamwork-bar {
+  width: 80%;
+  height: 5vh;
+  background-color: #d9779b;
+  padding: 5px;
+  text-align: right;
+}
+
+.problemsolving-bar {
+  width: 75%;
+  height: 5vh;
+  background-color: #d9779b;
+  padding: 5px;
+  text-align: right;
+}
+
+/* SKILLS PAGE END */
+
+/* INTERESTS PAGE START */
+.interests-content {
+  position: absolute;
+  top: 5vh;
+  left: 115vh;
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: transparent;
+  display: grid;
+  grid-gap: 1vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "writing reading reading"
+    "sports sports art"
+    "music blogs blogs"
+    "travel travel hiking";
+}
+
+#interests .interests-content {
+  background-color: #ede0d5;
+  width: 40vw;
+  height: 90vh;
+  padding: 25px;
+  box-shadow: 0 0 10px #513459;
+}
+
+.interests-content article {
+  padding: 0 10px;
+}
+
+.interests-content article:hover {
+  transition: 1s;
+  color: #724573;
+}
+
+#writing {
+  background-image: url(./images/writing.jpg);
+  grid-area: writing;
+  background-size: cover;
+}
+
+#writing:hover {
+  background-image: linear-gradient(
+      rgba(237, 224, 213, 0.7),
+      rgba(237, 224, 213, 0.7)
+    ),
+    url(./images/writing.jpg);
+}
+
+#reading {
+  grid-area: reading;
+  background-image: url(./images/reading.jpg);
+  background-size: cover;
+}
+
+#reading:hover {
+  background-image: linear-gradient(
+      rgba(237, 224, 213, 0.7),
+      rgba(237, 224, 213, 0.7)
+    ),
+    url(./images/reading.jpg);
+}
+
+#sports {
+  grid-area: sports;
+  background-image: url(./images/sports.jpg);
+  background-size: cover;
+}
+
+#sports:hover {
+  background-image: linear-gradient(
+      rgba(237, 224, 213, 0.7),
+      rgba(237, 224, 213, 0.7)
+    ),
+    url(./images/sports.jpg);
+}
+
+#art {
+  grid-area: art;
+  background-image: url(./images/art.jpg);
+  background-size: cover;
+}
+
+#art:hover {
+  background-image: linear-gradient(
+      rgba(237, 224, 213, 0.7),
+      rgba(237, 224, 213, 0.7)
+    ),
+    url(./images/art.jpg);
+}
+
+#music {
+  grid-area: music;
+  background-image: url(./images/music.jpg);
+  background-size: cover;
+}
+
+#music:hover {
+  background-image: linear-gradient(
+      rgba(237, 224, 213, 0.7),
+      rgba(237, 224, 213, 0.7)
+    ),
+    url(./images/music.jpg);
+}
+
+#blogs {
+  grid-area: blogs;
+  background-image: url(./images/blogs.jpg);
+  background-size: cover;
+}
+
+#blogs:hover {
+  background-image: linear-gradient(
+      rgba(237, 224, 213, 0.7),
+      rgba(237, 224, 213, 0.7)
+    ),
+    url(./images/blogs.jpg);
+}
+
+#travel {
+  grid-area: travel;
+  background-image: url(./images/travel.jpg);
+  background-size: cover;
+}
+
+#travel:hover {
+  background-image: linear-gradient(
+      rgba(237, 224, 213, 0.7),
+      rgba(237, 224, 213, 0.7)
+    ),
+    url(./images/travel.jpg);
+}
+
+#hiking {
+  grid-area: hiking;
+  background-image: url(./images/hiking.jpg);
+  background-size: cover;
+}
+
+#hiking:hover {
+  background-image: linear-gradient(
+      rgba(237, 224, 213, 0.7),
+      rgba(237, 224, 213, 0.7)
+    ),
+    url(./images/hiking.jpg);
+}
+
+/* INTERESTS PAGE END */
+
+/* CONTACT PAGE START */
+.contact-content {
+  position: absolute;
+  top: 5vh;
+  left: 115vh;
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #724573;
+  overflow-y: scroll;
+}
+
+#contact .contact-content {
+  background-color: #ede0d5;
+  width: 40vw;
+  height: 90vh;
+  padding: 25px;
+  box-shadow: 0 0 10px #513459;
+}
+
+.contact-content p.map {
+  margin: 0 0 10px 0;
+}
+
+.contact-content img {
+  height: 10%;
+  width: 10%;
+  vertical-align: middle;
+  margin: 10px 10px 5px 0;
+}
+
+.contact-content p.contact-text {
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+  color: #513459;
+  border-top: 2px dotted #d9779b;
+  margin: 5px 0 10px 0;
+  padding: 5px;
+}
+
+.message-button {
+  font-size: 0.7rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  color: #ede0d5;
+  background-color: #d9779b;
+  transition: all ease 600ms;
+  padding: 15px;
+  display: block;
+}
+
+.message-button:hover {
+  background-color: #a65d85;
+}
+
+/* CONTACT PAGE END */
+.hide {
+  display: none;
+}
